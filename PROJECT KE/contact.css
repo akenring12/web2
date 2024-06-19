@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgImg {
+    top: 0;
+    height: 39rem;
+    width: 100%;
+    position: relative;
+    background-image: url(tur.jpg);
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+.bgImg .colorshade hr{
+    border-color: blue;
+    margin: 28rem 0 0 -25rem;
+    position: absolute;
+    width: 110rem;
+    z-index: 2;   
+}
+
+.colorshade{
+    height: 39rem;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    position: absolute;
+    z-index: 30;
+    opacity: .6;
+}
+
+.bgImg > span{
+    height: 15rem;
+    width: 54rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin: 11rem 0 0 8rem;
+    position: absolute;
+    z-index: 50;
+    font-family: 'Jost', sans-serif;
+}
+
+span h1 {
+    font-size: 6rem;
+    padding: 0 0 1rem 0;
+}
+span p {
+    font-size: 17px;
+    line-height: 20px;   
+}
+.formCover{
+    position: relative;
+    height: auto;
+    width: auto;
+    /* background-color: rgb(61, 2, 2); */
+    margin: -5rem 0 0 0;
+    padding: 0 0 8rem 0;
+    overflow: hidden;
+}
+.contactForm{
+    height: 43rem;
+    width: 80rem;
+    top: 30rem;
+    margin: auto;
+    font-family: 'Jost', sans-serif;
+    /* position: absolute; */
+    z-index: 2;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
+}
+
+.fillForm{
+    height: 100%;
+    width: 65%;
+    background-color: whitesmoke;
+    padding: 3rem 3.5rem;
+    position: relative;
+}
+
+.fillForm h1{
+    font-size: 2.4rem;
+    margin: 0 0 2rem 0;
+    color: rgb(31, 30, 30);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.Section input{
+    border: none;
+    outline: none;
+    width: 19.3rem;
+    border-bottom: 1px solid darkslategrey;
+    background: none;
+    padding: 1rem 0 1rem 0;
+    margin: 0 3rem 0 0;
+}
+
+form textarea {
+    resize: none;
+    outline: none;
+    padding: 0.8rem 0.8rem;
+    font-size: 15px;
+}
+
+form button{
+    height: 4rem;
+    width: 9rem;
+    background-color: #29323c;
+    color: white;
+    outline: none;
+    border: none;
+}
+form button:hover{
+    background-color: rgb(76, 105, 105);
+    color: rgb(255, 255, 255);
+    transition: .5s ease;
+}
+
+.info{
+    height: 100%;
+    width: 35%;
+    background-color: #29323c;
+    color: white;
+    padding: 3rem 2rem
+}
+.info h1{
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.details{
+    height: 20rem;
+    width: 23rem;
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* background-color: blueviolet; */
+}
+
+.details-holder{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    gap: 10px;
+}
+
+.details span{
+    font-size: 30px;
+    opacity: .5;
+}
+
+.details p{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 3rem 0;
+}
+
+.info .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.info .social-links #link{
+    text-transform: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.info .social-links #link:hover{
+    color:rgba(240, 248, 255, 0.38);
+    transition: .3s ease;
+}
+
+@media (width <= 1050px){
+    .formCover
+    {
+        height: auto;
+        width: auto;
+        /* background-color: aqua; */
+     }
+    .contactForm
+    {
+        height: auto;
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+                
+    .fillForm
+    {
+        width: auto;
+        height: auto;
+        gap: 20rem;
+    }
+                    
+    .info
+    {
+        width: auto;
+        height: auto;                
+    }
+
+}
+
+
+
+
+
+@media (width <= 700px)
+{
+    .bgImg 
+    {
+        top: 0;
+        height: 39rem;
+        width: 100%;
+        /* position: absolute; */
+     }
+    span h1 
+    {
+        font-size: 5rem;
+    }
+    span p 
+    {
+        font-size: 17px;
+        width: 35rem; 
+    }
+    .formCover
+    {
+        height: auto;
+        width: auto;
+        /* background-color: aqua; */
+     }
+    .contactForm
+    {
+        height: auto;
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+                
+    .fillForm
+    {
+        width: auto;
+        height: auto;
+        gap: 20rem;
+    }
+                    
+    .info
+    {
+        width: auto;
+        height: auto;                
+    }
+    .Section input:nth-child(1)
+    {
+       margin: 0 0 2rem 0;
+    }
+                
+}
+                
+                
+                
+                
+                
+                
+                
+                

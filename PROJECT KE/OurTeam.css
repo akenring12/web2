@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.ourTeam-header
+{
+  height: 25rem;
+  width: 100%;
+  background-color: rgb(0, 26, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourTeam-header h1
+{
+  font-size: 10rem;
+  color: white;
+}
+
+.team-container
+{
+  height: 210rem;
+  width: 100%;
+  background-color: rgb(194, 194, 194);
+}
+
+.card-container
+{
+  width: 100%;
+  height: 51rem;
+  /* background-color: rgb(0, 4, 54); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.card-container .card
+{
+  height: 43rem;
+  width: 35rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem;
+  margin: 10rem 0 0 0;
+  border-radius: 20px;
+  /* box-shadow: inset 0 0 20PX rgba(0, 0, 0, 0.384); */
+}
+
+.card-container .card > .img1
+{
+  background-image: url(ngor.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}
+.card-container .card > .img2
+{
+  background-image: url(shaddy.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img3
+{
+  background-image: url(achieng.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img4
+{
+  background-image: url(falastin.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img5
+{
+  background-image: url(Minza.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img6
+{
+  background-image: url(dino.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img7
+{
+  background-image: url(chris.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img8
+{
+  background-image: url(deo.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img9
+{
+  background-image: url(manyang.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img10
+{
+  background-image: url(ring.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img11
+{
+  background-image: url(jok.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}.card-container .card > .img12
+{
+  background-image: url(monny.jpg);
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  /* background-color: rgb(6, 0, 22); */
+  position: absolute;
+  margin-top: -6rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card-title
+{
+  margin: 10rem 0 0 0;
+}
+
+.card .card-title h2
+{
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.card .card-title h4
+{
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  margin: 0 0 2rem 0;
+}
+
+.card .card-title p
+{
+  font-size: 13px;
+}
+
+@media (width <= 1000px){
+  .team-container
+    {
+      position: relative;
+      background-color: rgb(194, 194, 194);
+      height: 650rem;
+    }
+  .card-container
+    {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 160rem;
+    }
+
+  .card-container .card
+  {
+    height: 43rem;
+    width: 50rem;
+    font-size: 20px;
+  }
+  .ourTeam-header h1
+
+  {
+    font-size: 7rem;
+    color: white;
+  }
+}
+@media (width <= 700px){
+  .team-container
+    {
+      position: relative;
+      height: auto;
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    /* gap: 45px; */
+      }
+      .card-container
+      {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 5rem;
+    }
+
+  .card-container .card
+  {
+    height: auto;
+    width: 30rem;
+    font-size: 20px;
+    padding: 3rem;
+  }
+  .ourTeam-header h1
+  {
+    font-size: 5rem;
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

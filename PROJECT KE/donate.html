@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>PROJECT 21 KENYA</title>
+
+  <link rel="stylesheet" href="style.css">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  
+    #about{
+     width: 100%;
+     height: auto;
+     background-color:   #29323c;
+     padding: 2rem 4rem;
+    }
+    .about-container{
+      width: auto;
+      height: auto;
+      padding: 2rem 5rem;
+      position: relative;
+      /* background-color: black; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin: auto; */
+    }
+    #about .col-left{
+      width: 40%;
+      height: 46rem;
+      /* background-color: aqua; */
+    }
+  .col-left img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     object-position: 100% 40%;
+    }
+    #about .col-right{
+      width: auto;
+      padding: 2rem 4rem;
+      /* background-color: #1F51FF; */
+    }
+    #about .col-right h1{
+      font-size: 4rem;
+      color: white
+    }
+    #about .col-right h2{
+      font-size: 3.5rem;
+      color: white;
+      text-transform: capitalize;
+      margin: -3rem 0 0 0;
+    }
+    #about .col-right p{
+      font-size: 2.5rem;
+      color: white
+    }
+    #about .button{
+      display: inline-block;
+      padding: 14px 30px;
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: .3s ease;
+      transition-property: background-color, color;
+      border-radius: 25px;
+    }
+    #about .button:hover{
+      background-color: #1F51FF;
+      color: rgb(255, 255, 255);
+      border: none;
+    }
+
+
+    @media (width <= 1050px) 
+    {
+      .about-container{
+        width: auto;
+        height: auto;
+        position: relative;
+        flex-direction: column;
+      }
+        /* #about .col-left{
+      width: 40%;
+      height: 46rem;
+      background-color: aqua;
+    } */
+
+
+
+
+    }
+
+
+    @media (100px <= width <= 700px) 
+    {
+      #about{
+     width: 100%;
+     height: 100vh;
+     background-color:   #29323c;
+     display: flex;
+     align-items: center;
+     /* padding: 2rem 4rem; */
+    }
+      .about-container{
+        width: auto;
+        height: auto;
+        position: relative;
+        flex-direction: column;
+        /* background-color: antiquewhite; */
+      }
+      /* #about .col-left{
+        display: visible;
+      width: 40%;
+      height: 46rem;
+      background-color: aqua;
+    } */
+    }
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="index.html"><p class="logo">Project21 <br/> <span>Our community our pride</span></p></a>
+          </div>
+  
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="index.html" data-after="Services">home</a> </li>
+              <li><a href="About.html" data-after="Services">Who we are</a> </li>
+              <li class="dropdown">
+                <a data-after="Contact" class="dropBtn">Our Impact <i class="fa-solid fa-caret-down"></i></a>
+                  <div class="dropdown-content">
+                    <a href="project-edu.html">Education</a>
+                    <a href="projects-wia.html">WIA</a>
+                    <a href="project-sm.html">Soap Making</a>
+                    <a href="project-olat.html">One Life At A Time</a>
+                  </div>
+              </li>
+              <li class="dropdown">
+                <a href="contact.html" data-after="Contact" class="dropBtn">Contact <i class="fa-solid fa-caret-down"></i></a>
+                  <div class="dropdown-content">
+                    <a href="OurTeam.html">Meet Our Team</a>
+                    <a href="contact.html">Contact Us</a>
+                  </div>
+              </li>
+              <li><a href="blog.html" data-after="Home">Blog</a> </li>
+            </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Donate Section -->
+  <section id="about">
+    <div class="about-container">
+      <div class="col-left">
+          <img src="Women+in+Kakuma+Refugee+Camp+(10).jpg" class="img">
+      </div>
+      <div class="col-right">
+        <h1>SUPPORT OUR WORK</h1>
+        <h2>Your aid matter</h2>
+        <P>
+          Your support will be very vital for project 21.
+        </P>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=A7HS25U4JRTW">
+          <button class="button">DONATE</button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Donate Section -->
+
+
+<script src="JS/app.js"></script>
+
+</body>
+</html>
